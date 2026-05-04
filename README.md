@@ -15,10 +15,16 @@ Prepare Data: Open buy_parts_example.xlsx and fill in the Part IDs and quantitie
 Run the Tool: Execute the program. The tool will automatically optimize the procurement logic and sourcing for you.
 
 Notes for macOS Users
-Since this software is not digitally signed by Apple, you may see a "Developer Cannot be Verified" warning:
+Since this software is not notarized by Apple, you may encounter a "Developer Cannot be Verified" warning upon launching.
+
+To bypass this:
 Right-click the LEGO_Tool_Mac file and select Open.
-Click Open again in the pop-up dialog.
-If it still won't run, open your Terminal and type: chmod +x LEGO_Tool_Mac
+Click Open again in the pop-up confirmation dialog.
+
+If the program fails to launch:
+You may need to manually grant execution permissions. Open your Terminal, navigate to the folder, and run:
+chmod +x LEGO_Tool_Mac
+
 
 About Shotval Foundry
 Based in Taipei, we specialize in structural optimization for articulated mecha frames and custom MOC kit development.
